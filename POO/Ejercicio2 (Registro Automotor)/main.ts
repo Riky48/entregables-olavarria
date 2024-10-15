@@ -1,13 +1,16 @@
+import { Auto } from "./auto";
+import { Camion } from "./camion";
+import { Moto } from "./moto";
 import { RegistroAutomotor } from "./registro";
 import { Vehiculo } from "./vehiculo";
 
 const registro = new RegistroAutomotor("Transformers");
 
-const vehiculo = new Vehiculo("Camion", "VW", "Meteor 28.460", 2024 , "ASDA123");
-const vehiculo2 = new Vehiculo("Auto", "Ford", "Focus", 2005 ,"ASD123");
-const vehiculo3 = new Vehiculo("Moto", "Honda", "Cb190", 2019 ,"54ASD45");
-const vehiculo4 = new Vehiculo("Moto", "Yamaha", "Fz150", 2013 ,"ASD45");
-const vehiculo5 = new Vehiculo("Auto", "Toyota", "Corolla", 2011 ,"36ASD");
+const vehiculo = new Camion("VW", "Meteor 28.460", 2024 , "ASDA123");
+const vehiculo2 = new Auto("Ford", "Focus", 2005 ,"ASD123");
+const vehiculo3 = new Moto("Honda", "Cb190", 2019 ,"54ASD45");
+const vehiculo4 = new Moto("Yamaha", "Fz150", 2013 ,"ASD45");
+const vehiculo5 = new Auto("Toyota", "Corolla", 2011 ,"36ASD");
     
 registro.registrarVehiculo(vehiculo);
 registro.registrarVehiculo(vehiculo2);
