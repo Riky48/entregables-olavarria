@@ -9,11 +9,11 @@ import { Personaje } from "./personaje";
 
     public atacar(): void {
         
-        console.log(`${this.getNombre} dispara flechas triples con agilidad: ${this.agilidad} `);
+        console.log(`${this.getNombre()} dispara flechas triples con agilidad: ${this.agilidad} `);
    }
    public defender(): void {
        
-       console.log(`${this.getNombre} se esta defendiendo`);
+       console.log(`${this.getNombre()} se esta defendiendo`);
    }
 
 

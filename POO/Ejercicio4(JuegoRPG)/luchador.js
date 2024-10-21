@@ -26,10 +26,10 @@ var Luchador = /** @class */ (function (_super) {
         return _this;
     }
     Luchador.prototype.atacar = function () {
-        console.log("".concat(this.getNombre, " esta atacando con fuerza: ").concat(this.fuerza, " "));
+        console.log("".concat(this.getNombre(), " esta atacando con fuerza: ").concat(this.fuerza, " "));
     };
     Luchador.prototype.defender = function () {
-        console.log("".concat(this.getNombre, " se esta defendiendo"));
+        console.log("".concat(this.getNombre(), " se esta defendiendo"));
     };
     return Luchador;
 }(personaje_1.Personaje));

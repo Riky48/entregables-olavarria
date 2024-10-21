@@ -26,10 +26,10 @@ var Arquero = /** @class */ (function (_super) {
         return _this;
     }
     Arquero.prototype.atacar = function () {
-        console.log("".concat(this.getNombre, " dispara flechas triples con agilidad: ").concat(this.agilidad, " "));
+        console.log("".concat(this.getNombre(), " dispara flechas triples con agilidad: ").concat(this.agilidad, " "));
     };
     Arquero.prototype.defender = function () {
-        console.log("".concat(this.getNombre, " se esta defendiendo"));
+        console.log("".concat(this.getNombre(), " se esta defendiendo"));
     };
     return Arquero;
 }(personaje_1.Personaje));

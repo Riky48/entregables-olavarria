@@ -9,11 +9,11 @@ import { Personaje } from "./personaje";
 
     public atacar(): void {
         
-         console.log(`${this.getNombre} esta atacando con fuerza: ${this.fuerza} `);
+         console.log(`${this.getNombre()} esta atacando con fuerza: ${this.fuerza} `);
     }
     public defender(): void {
         
-        console.log(`${this.getNombre} se esta defendiendo`);
+        console.log(`${this.getNombre()} se esta defendiendo`);
     }
 
 

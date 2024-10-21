@@ -10,11 +10,11 @@ import { Personaje } from "./personaje";
 
     public atacar(): void {
         
-        console.log(`${this.getNombre} lanza un hechizo de magia ${this.magia} `);
+        console.log(`${this.getNombre()} lanza un hechizo de magia ${this.magia} `);
    }
    public defender(): void {
        
-       console.log(`${this.getNombre} se esta defendiendo`);
+       console.log(`${this.getNombre()} se esta defendiendo`);
    }
 
 

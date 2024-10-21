@@ -26,10 +26,10 @@ var Mago = /** @class */ (function (_super) {
         return _this;
     }
     Mago.prototype.atacar = function () {
-        console.log("".concat(this.getNombre, " lanza un hechizo de magia ").concat(this.magia, " "));
+        console.log("".concat(this.getNombre(), " lanza un hechizo de magia ").concat(this.magia, " "));
     };
     Mago.prototype.defender = function () {
-        console.log("".concat(this.getNombre, " se esta defendiendo"));
+        console.log("".concat(this.getNombre(), " se esta defendiendo"));
     };
     return Mago;
 }(personaje_1.Personaje));
