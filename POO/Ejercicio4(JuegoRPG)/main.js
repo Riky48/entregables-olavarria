@@ -12,3 +12,4 @@ arquero1.atacar();
 arquero1.defender();
 luchador1.atacar();
 luchador1.defender();
+luchador1.encontrarCaja("Golpe de Hierro");

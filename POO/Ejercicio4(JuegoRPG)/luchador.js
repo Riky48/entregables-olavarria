@@ -31,6 +31,11 @@ var Luchador = /** @class */ (function (_super) {
     Luchador.prototype.defender = function () {
         console.log("".concat(this.getNombre(), " se esta defendiendo"));
     };
+    Luchador.prototype.encontrarCaja = function (nuevaHabilidad) {
+        _super.prototype.encontrarCaja.call(this, nuevaHabilidad); // Llama al método de la clase padre
+        this.fuerza += 7;
+        console.log("".concat(this.getNombre(), " ha aumentado su fuerza a ").concat(this.fuerza));
+    };
     return Luchador;
 }(personaje_1.Personaje));
 exports.Luchador = Luchador;
