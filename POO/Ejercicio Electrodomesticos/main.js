@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var lavarropa_1 = require("./lavarropa");
+var heladera_1 = require("./heladera");
+var microondas_1 = require("./microondas");
+var lavarropa1 = new lavarropa_1.Lavarropa(8, "superior", 3000, false, "drean", "A");
+var refrigerator47 = new heladera_1.Heladera(20, true, 500, false, "samsung", "A");
+var microondas1 = new microondas_1.Microondas(true, true, 1000, false, false, "LG", "B", true);
+lavarropa1.encender();
+lavarropa1.apagar();
+refrigerator47.encender();
+microondas1.encender();
+microondas1.Actualizacion();
