@@ -1,5 +1,7 @@
+import { IdUnico } from "./IdUnico";
 
-export class Veterinaria {
+
+export class Veterinaria implements IdUnico {
     private id: string;
     private nombre: string;
     private direccion: string;
